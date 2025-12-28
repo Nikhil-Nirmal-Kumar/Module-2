@@ -13,13 +13,16 @@ To write a Python program that defines a function which accepts two values and r
 ## 🧾 Program
 ```
 def result(a,b):
-    print(a%b)
-c=int(input("Enter a number:"))
-d=int(input("Enter a number:"))
-result(c,d)
+    if a>b:
+        c=a%b
+    else:
+        c=b%a
+    print("modulo is",c)
+a=int(input())
+b=int(input())
 ```
 
 ## Output
-<img width="180" height="63" alt="image" src="https://github.com/user-attachments/assets/7f4ac257-1282-4e32-afa8-618f0bac8553" />
+<img width="524" height="195" alt="image" src="https://github.com/user-attachments/assets/5eeb718e-3c49-4cb9-9e39-31979d566f1c" />
 
 ## Result
